@@ -11,6 +11,8 @@ and add this to the end of the file:
 
 `Authentication=VncAuth`
 
+Then restart the service, and your done:
+
 `sudo systemctl restart vncserver-x11-serviced.service`
 
 ## Refrence:
