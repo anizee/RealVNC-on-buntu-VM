@@ -6,7 +6,9 @@
 `sudo vncpasswd -service` 
 
 `sudo nano /root/.vnc/config.d/vncserver-x11`
+
 and add this to the end of the file:
+
 `Authentication=VncAuth`
 
 `sudo systemctl restart vncserver-x11-serviced.service`
