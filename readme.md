@@ -1,18 +1,14 @@
+## Install Real
+
+## Run these to fix the permissions:
 `sudo vnclicensewiz`
 
-running 
 `sudo vncpasswd -service` 
-then typing the password you will use for connection to the vnc server
 
-editing 
-`/root/.vnc/config.d/vncserver-x11`
-file as root
-
-adding 
+`sudo nano /root/.vnc/config.d/vncserver-x11`
+and add this to the end of the file:
 `Authentication=VncAuth`
-to the end of the file
 
-restarting vncserver service - 
 `sudo systemctl restart vncserver-x11-serviced.service`
 
 ## Refrence:
