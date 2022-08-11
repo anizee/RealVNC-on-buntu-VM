@@ -1,5 +1,9 @@
 ## Install Real
 
+https://www.realvnc.com/en/connect/download/vnc/
+
+`sudo dpkg -i /Downloads/VNC*`
+
 ## Run these to fix the permissions:
 `sudo vnclicensewiz`
 
